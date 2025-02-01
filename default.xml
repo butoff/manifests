@@ -10,7 +10,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project path="vendor/aosp-course" name="aosp-course" remote="butoff" />
+  <project path="vendor/aosp-course" name="aosp-course" remote="butoff" revision="refs/heads/master" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
